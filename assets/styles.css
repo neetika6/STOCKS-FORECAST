@@ -1,0 +1,187 @@
+.inputs {
+  position:fixed;
+  display:flex;
+  justify-content: start;
+  width: 35vw;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(bg.jpg);
+  box-sizing:content-box;
+}
+ * {
+  margin: 0pt;
+  padding: 0pt;
+  box-sizing: 0pt;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.start{
+font-weight: bolder;
+text-align: center;
+color:rgb(213, 248, 116);
+font-size: 19pt;
+margin-top: 20pt;
+margin-bottom:100pt ;
+}
+.code{
+  color: rgb(255, 251, 27);
+  padding:10pt;
+  font-size: 15pt;
+  font-weight: bold;
+}
+#submit-val{
+background-color: yellow;
+padding-left: 20pt;
+padding-top: 10pt;
+padding-bottom: 10pt;
+padding-right: 20pt;
+}
+#submit{
+  padding:10pt;
+  padding-right: 0pt;
+  padding-left: 0pt;
+  align-items: flex-start;
+}
+#my-date-picker-range{
+  margin: 25pt;
+}
+#stock-price{
+  background-color: lawngreen;
+  padding-top: 10pt;
+  padding-left: 30pt;
+  padding-right: 30pt;
+  padding-bottom:10pt ;
+  margin: 20pt;
+  margin-bottom: 25;
+  margin-right: 40pt;
+}
+#indicators{
+  background-color: lawngreen;
+  padding-top: 10pt;
+  padding-left: 30pt;
+  padding-right: 30pt;
+  padding-bottom:10pt ;
+  margin: 20pt;
+  margin-bottom: 25;
+  margin-left: 40pt;
+}
+#forecast{
+  background-color: lawngreen;
+  padding-top: 10pt;
+  padding-left: 30pt;
+  padding-right: 30pt;
+  padding-bottom:10pt ;
+  margin: 20pt;
+}
+#no-of-days{
+  padding-top: 10pt;
+  padding-bottom: 10pt;
+  padding-right: 40pt;
+  margin: 20pt;
+  margin-left: 10pt;
+}
+ 
+ body{
+     height:100vh;
+     overflow:auto;
+ }
+ 
+ .container{
+     position: relative;
+     display: flex;
+ }
+ 
+ .content{
+     margin-right: 2%;
+     margin-left: 40%;
+     overflow: auto;
+ }
+ 
+ .dash-dropdown{
+     width:70%;
+ }
+ .header{
+     height: 15vh;
+     position: relative;
+     display: flex;
+     justify-content: space-evenly;
+ }
+ 
+ #logo{
+     position:relative;
+     width: 100px;
+     align-self:center;
+     left: 4%;
+     margin-right: 6%;
+     margin-bottom: 5%;
+     margin-top: 5%;
+ }
+ 
+ #ticker{
+     align-self: center;
+     font-size: 60px;
+     margin-left: 6%;
+ }
+ 
+ 
+ .decription_ticker{
+     margin: 15px 15px;
+ }
+ 
+ 
+ #main-content{
+     margin-top: 6%;
+ }
+ 
+ #graphs-content{
+     margin-top: 5%;
+ }
+ 
+ .graph-dounut{
+     display: 'inline-block';
+     width:20vw;
+     height: 20vh;
+ }
+ 
+ .dounuts{
+     display:flex;
+     overflow:hidden;
+     flex-direction: row;;
+ }
+ 
+ .dounuts div {
+     width: 50%;
+ }
+ 
+ .kpi{
+     margin:5% 5%;
+     display:flex;
+     justify-content: space-between;
+     flex-direction: row;
+ }
+ 
+ 
+ .kpi div {
+     width:30%;
+     height:10vh;
+     overflow: hidden;
+     background-color: rgb(163, 146, 146);
+     justify-items: center;
+     justify-content: center;
+     text-align: center;
+ }
+ 
+ .kpi div P {
+     margin-top: 17px;
+     color:rgba(255, 255, 255, 0.89);
+     font-weight: bold;
+     font-size: 30px;
+ }
+ 
+ .kpi div H4 {
+     margin-top: 10px;
+ }
+ 
+ /* #floating bar */
+ .modebar{
+     display: none !important;
+ }
